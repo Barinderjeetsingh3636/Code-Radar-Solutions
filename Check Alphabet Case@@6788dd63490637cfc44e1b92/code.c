@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <ctype>
 int main() {
     char sample_text[] = "Hello World!";
     int has_upper = 0, has_lower = 0;
