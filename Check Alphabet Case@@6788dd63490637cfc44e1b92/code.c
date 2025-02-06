@@ -1,16 +1,21 @@
 #include <stdio.h>
-#include <ctype>
-int main() {
-    char sample_text[] = "Hello World!";
-    int has_upper = 0, has_lower = 0;
 
-    for(int i = 0; sample_text[i] != '\0'; i++) {
-        has_upper |= isupper(sample_text[i]);
-        has_lower |= islower(sample_text[i]);
-    }
-    printf("Uppercase");
-    printf("Lowercase");
-    return 0;
+char* welcome() {
+    return "Welcome to Code Radar!";
 }
 
+int main() {
+    char ch;
 
+    scanf("%c", &ch);
+
+    if (ch >= 'A' && ch <= 'Z') {
+        printf("Uppercase");
+    } else if (ch >= 'a' && ch <= 'z') {
+        printf("Lowercase");
+    } else {
+        printf("Not an alphabet");
+    }
+
+    return 0;
+}
