@@ -5,11 +5,11 @@ int main() {
     scanf("%d",a);
     if (a/5)
     {
-        printf("Divisible")
+        printf("Divisible");
     }
     else
     {
-        printf("Not Divisible")
+        printf("Not Divisible");
     }
     return 0;
 }
