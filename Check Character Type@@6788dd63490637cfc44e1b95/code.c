@@ -4,11 +4,11 @@ int main() {
     char a;
     scanf("%c",a)
     if (a=a,e,i,o,u){
-        printf("Vowel")
+        printf("Vowel");
     }
     else
     {
-        printf("Consonant")
+        printf("Consonant");
     }
     return 0;
 }
