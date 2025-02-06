@@ -17,10 +17,10 @@ int main() {
     }
     else if(marks>=60 && marks <70)
     {
-        print("D")
+        print("D");
     }
     else
     {
-        print("F")
+        print("F");
     }
 }
