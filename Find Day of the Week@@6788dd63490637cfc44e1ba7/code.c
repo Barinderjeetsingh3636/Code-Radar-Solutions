@@ -1,15 +1,35 @@
 #include <stdio.h>
 int main() 
 {
-    int a,b;
-    scanf("%d%d",&a,&b);
-    if (a>0 && b>0 && a<0 &&b>0)
+    int a;
+    scanf("%d",&a);
+    if (a==1)
     {
-        printf("Same Sign");
+        printf("Monday");
     }
-    else
+    else if (a==2)
     {
-        printf("Different Sign");
+        printf("Tuesday");
+    }
+    else if (a==3)
+    {
+        printf("Wednesday");
+    }
+    else if (a==4)
+    {
+        printf("Thursday");
+    }
+    else if (a==5)
+    {
+        printf("Friday");
+    }
+    else if (a==6)
+    {
+        printf("Saturday");
+    }
+    else if (a==7)
+    {
+        printf("Sunday");
     }
     return 0;
 }
