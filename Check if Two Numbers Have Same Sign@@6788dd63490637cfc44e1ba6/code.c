@@ -4,11 +4,11 @@ int main() {
     scanf("%d%d",&a,&b);
     if (a>0 && b>0 || a<0 &&b>0)
     {
-        printf("In Range");
+        printf("Same Sign");
     }
     else
     {
-        printf("Out of Range");
+        printf("Different Sign");
     }
     return 0;
 }
