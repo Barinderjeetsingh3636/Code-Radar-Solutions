@@ -19,9 +19,12 @@ int main() {
     {
         printf("Below");
     }
-    else
+    else if (a==F)
     {
         printf("Fail");
     }
-    return 0;
+    else
+    {
+        printf("Invalid Grade")
+    }
 }
