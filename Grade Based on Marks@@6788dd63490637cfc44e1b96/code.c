@@ -23,4 +23,5 @@ int main() {
     {
         print("F");
     }
+    return 0;
 }
