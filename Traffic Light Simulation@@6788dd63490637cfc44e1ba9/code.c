@@ -8,7 +8,7 @@ int main() {
     }
     else if(a=='Y')
     {
-        printf("slowdown");
+        printf("Slow Down");
     }
     else if(a=='G')
     {
