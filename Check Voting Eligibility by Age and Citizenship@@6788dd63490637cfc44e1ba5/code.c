@@ -12,4 +12,5 @@ int main() {
     {
         printyf("Not Eligible");
     }
+    return 0;
     }
