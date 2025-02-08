@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int side, i, j;
-    printf("Enter the side length of the square: ");
+    
     scanf("%d", &side);
 
     for (i = 1; i <= side; i++) {
