@@ -7,9 +7,9 @@ int main() {
     scanf("%d", &rows);
     for (i = rows; i >= 1; i--) {
         for (j = 1; j <= i; j++) {
-            printf("%D",*);
+            printf("*");
         }
-        printf(" \n");
+        printf("\n");
     }
 
     return 0;
