@@ -2,9 +2,6 @@
 
 
 int main() {
-   #include <stdio.h>
-
-int main() {
     int rows, i, j, k;
     
     scanf("%d", &rows);
