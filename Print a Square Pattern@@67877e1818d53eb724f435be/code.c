@@ -1,9 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    #include <stdio.h>
-
-int main() {
     int side, i, j;
     scanf("%d", &side);
 
@@ -17,4 +14,3 @@ int main() {
     return 0;
 }
 
-}
