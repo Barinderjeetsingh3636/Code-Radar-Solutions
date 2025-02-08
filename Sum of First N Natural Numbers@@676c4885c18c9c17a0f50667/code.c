@@ -5,7 +5,7 @@ int main() {
     
     scanf("%d", &N);
 
-    printf("The first %d natural numbers are: ", N);
+    printf( N);
     for (i = 1; i <= N; i++) {
         printf("%d ", i);
         sum += i;
