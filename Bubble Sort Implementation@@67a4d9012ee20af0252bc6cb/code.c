@@ -39,7 +39,7 @@ int main() {
     int arr[n];
     
     // Read the elements of the array
-    printf("Enter %d elements: ", n);
+    
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
