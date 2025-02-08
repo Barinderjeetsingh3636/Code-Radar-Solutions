@@ -7,7 +7,7 @@ void swap(int *xp, int *yp) {
     *yp = temp;
 }
 
-// Function to perform Bubble Sort
+// Function to perform Bubble Sort and return the sorted array
 void bubbleSort(int arr[], int n) {
     int i, j;
     for (i = 0; i < n-1; i++) {
@@ -30,14 +30,26 @@ void printArray(int arr[], int size) {
 }
 
 int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
-    int n = sizeof(arr)/sizeof(arr[0]);
-    printf("Original array: \n");
-    printArray(arr, n);
-
+    int n, i;
+    
+    // Read the number of elements
+    
+    scanf("%d", &n);
+    
+    int arr[n];
+    
+    // Read the elements of the array
+    
+    for (i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+    
+    // Sort the array using Bubble Sort
     bubbleSort(arr, n);
-    printf("Sorted array: \n");
+    
+    // Print the sorted array
+    
     printArray(arr, n);
-
+    
     return 0;
 }
