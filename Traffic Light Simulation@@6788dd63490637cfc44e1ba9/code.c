@@ -10,7 +10,7 @@ int main() {
     {
         printf("slowdown");
     }
-    else if{a=='G'}
+    else if(a=='G')
     {
         printf("Go");
     }
