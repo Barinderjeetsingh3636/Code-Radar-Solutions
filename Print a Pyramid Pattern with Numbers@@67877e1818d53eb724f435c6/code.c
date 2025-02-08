@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int rows, i, j, k, num = 1;
+    int rows, i, j, k;
+    
     scanf("%d", &rows);
 
     for (i = 1; i <= rows; i++) {
@@ -11,8 +12,7 @@ int main() {
         }
         // Print numbers
         for (k = 1; k <= i; k++) {
-            printf("%d ", num);
-            num++;
+            printf("%d ", k);
         }
         printf("\n");
     }
